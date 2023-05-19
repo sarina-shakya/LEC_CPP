@@ -14,7 +14,7 @@ int main(){
     Account a1;
     cout<<"Salary:"<<p1.salary<<endl;
     cout<<"Bonus:"<<p1.bonus<<endl;
-    
+    return 0;
 }
 
     
