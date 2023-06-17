@@ -16,7 +16,7 @@ class simple
             cout<<"\ndata1="<<data1<<endl;
             cout<<"data2="<<data2<<endl;
         }
-};
+};    
 
 int main()
 {
