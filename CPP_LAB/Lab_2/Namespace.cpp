@@ -18,7 +18,7 @@ void printRoom()
 
 namespace BCT{
 char subject[30] = "Software Engineering";
-int labRoom = 401;
+int labRoom = 402;
 
 void printSubject(){
         cout<<subject<<endl;
@@ -35,6 +35,6 @@ int main()
     cout<<BCT::labRoom <<endl;
     BCT::printSubject();
     
-    return 0;
+    
 }
 
