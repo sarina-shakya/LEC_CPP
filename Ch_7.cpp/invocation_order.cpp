@@ -15,7 +15,7 @@ class Child:public Parent{
         cout<<"This is child constructor"<<endl;
     }
     ~Child(){
-        cout<<"This is child destructor"<<endl;
+        cout<<"This is child destructor";
     }
 };
 int main(){
