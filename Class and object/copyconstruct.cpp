@@ -5,9 +5,13 @@ class wall{
         double length;
         double height;
     public:
+        wall(){
+            length=13.3;
+            height=11.4;
+        }
         wall(double len, double hgt){
             length=len;
-            height=hgt;
+            height=hgt; 
         }
     wall(wall &obj){
         length=obj.length;
@@ -18,10 +22,12 @@ class wall{
     }
 };
 int main(){
-    wall wall1(10.5,8.6);
+    wall wall1;
     cout<<"Area of wall1 is:"<<wall1.calculateArea()<<endl;
-    wall wall2=wall1;
+    wall wall2(10.5,8.6);
     cout<<"Area of wall2 is:"<<wall2.calculateArea()<<endl;
+    wall wall3=wall2;
+    cout<<"Area of wall3 is:"<<wall3.calculateArea()<<endl;
 
-    return 0;
+    
 }

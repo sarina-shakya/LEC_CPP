@@ -1,8 +1,8 @@
 #include<iostream>
 using namespace std;
-
-int *roll = new int;
-char *name = new char[15];
+//new and delete operator
+int *roll = new int; //dynamically allocate memory for an integer
+char *name = new char[15]; //dynamically allocate memory for a character array
 
 void scanRollandName(){
     cout<<"Enter your name: "<<endl;
@@ -12,8 +12,8 @@ void scanRollandName(){
 }
 
 void freeMemory(){
-    delete roll;
-    delete [] name;
+    delete roll; //deallocate memory for the integer
+    delete [] name; //deallocate memory for the character array
 }
 
 void printRollandName(){

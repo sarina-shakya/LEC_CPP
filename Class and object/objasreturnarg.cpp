@@ -21,7 +21,7 @@ Student getStudent()
 
 int main()
 {
-    Student S1;
+    Student S1;                                                         
     S1=getStudent();
     return 0;
 }
